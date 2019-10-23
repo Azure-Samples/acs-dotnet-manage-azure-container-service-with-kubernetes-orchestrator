@@ -8,35 +8,33 @@ extensions:
 - services: Container-Service
 - platforms: dotnet
 description: "An Azure Container Services sample for managing a container service with Kubernetes orchestration."
+urlFragment: getting-started-on-managing-azure-container-service-with-kubernetes-orchestrator-using-c
 ---
 
-# Getting started on managing Azure Container Service with kubernetes orchestrator using C# #
+# Get started managing Azure Container Service with Kubernetes orchestrator (C#)
 
- An Azure Container Services sample for managing a container service with Kubernetes orchestration.
-    - Create an Azure Container Service with Kubernetes orchestrator
-    - Update the number of agent virtual machines in an Azure Container Service
+An Azure Container Services sample for managing a container service with Kubernetes orchestration.
 
+- Create an Azure Container Service with Kubernetes orchestrator
+- Update the number of agent virtual machines in an Azure Container Service
 
-## Running this Sample ##
+## Running this sample
 
 To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-net/blob/master/AUTH.md).
 
-    git clone https://github.com/Azure-Samples/acs-dotnet-manage-azure-container-service-with-kubernetes-orchestrator.git
+```bash
+git clone https://github.com/Azure-Samples/acs-dotnet-manage-azure-container-service-with-kubernetes-orchestrator.git
+cd acs-dotnet-manage-azure-container-service-with-kubernetes-orchestrator
+dotnet build
+bin\Debug\net452\ManageContainerServiceWithKubernetesOrchestrator.exe
+```
 
-    cd acs-dotnet-manage-azure-container-service-with-kubernetes-orchestrator
-
-    dotnet build
-
-    bin\Debug\net452\ManageContainerServiceWithKubernetesOrchestrator.exe
-
-## More information ##
+## More information
 
 [Azure Management Libraries for C#](https://github.com/Azure/azure-sdk-for-net/tree/Fluent)
 [Azure .Net Developer Center](https://azure.microsoft.com/en-us/develop/net/)
-If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
-
----
+If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212).
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
