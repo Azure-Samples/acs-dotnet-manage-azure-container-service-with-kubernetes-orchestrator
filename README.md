@@ -4,6 +4,7 @@ languages:
 - csharp
 products:
 - azure
+- azure-kubernetes-service
 extensions:
 - services: Container-Service
 - platforms: dotnet
